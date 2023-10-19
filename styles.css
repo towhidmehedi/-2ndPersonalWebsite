@@ -3,7 +3,8 @@ body{
     margin: 0;
     }
 h1{font-size: 50px;}
-h2{font-size: 40px;}
+h2{font-size: 40px;
+    text-align: center;}
 h3{font-size: 30px;}
 p{color: rgb(0, 0, 0);}
 .speech{
@@ -18,10 +19,12 @@ p{color: rgb(0, 0, 0);}
 .top-banner{
     background-image: url("Images/image\ 2.png");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center;
+    border-color: black;
+    border-style: solid;
     }
 section{
-    height: 500px;
+    height: 400px;
     padding-bottom: 150px;
     }
 .link-button{
@@ -41,22 +44,21 @@ section{
 .portfolio{
     background-image: url("Images/half-round-gap.png");
     background-repeat: no-repeat;
-    background-position: left;
     }
-.solo{
-    box-shadow: 10px 10px 40px;
+.works{
+    box-shadow: 5px 5px;
     border-radius: 5px;
     height: 30%;
     background-color: rgb(186, 186, 186);
     }
 #p-work{
     border-left: 6px solid;
-    border-image: linear-gradient(180deg, blue, cyan);
+    border-image: linear-gradient(90deg, blue, cyan);
     border-image-slice: 1;
     }
 #t-work{
     border-left: 6px solid;
-    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image: linear-gradient(90deg, lightsalmon, tomato);
     border-image-slice: 1;
     }
 footer p{
