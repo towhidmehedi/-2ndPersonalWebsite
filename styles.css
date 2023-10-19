@@ -5,7 +5,7 @@ body{
 h1{font-size: 50px;}
 h2{font-size: 40px;}
 h3{font-size: 30px;}
-p{color: orange;}
+p{color: rgb(0, 0, 0);}
 .speech{
     width: 40%;
     float: left;
@@ -46,7 +46,7 @@ section{
 .solo{
     box-shadow: 10px 10px 40px;
     border-radius: 5px;
-    height: 70%;
+    height: 30%;
     background-color: rgb(186, 186, 186);
     }
 #p-work{
