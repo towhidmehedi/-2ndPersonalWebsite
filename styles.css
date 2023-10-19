@@ -5,12 +5,12 @@ body{
 h1{font-size: 50px;}
 h2{font-size: 40px;}
 h3{font-size: 30px;}
-p{color:dimgray;}
+p{color: orange;}
 .speech{
     width: 40%;
     float: left;
     margin-left: 5%;
-    padding-left: 5%;
+    padding-left: 2%;
     }
 .speech img{
     width: 100%;
@@ -18,7 +18,7 @@ p{color:dimgray;}
 .top-banner{
     background-image: url("Images/image\ 2.png");
     background-repeat: no-repeat;
-    background-position: ;
+    background-position: right;
     }
 section{
     height: 500px;
@@ -29,13 +29,14 @@ section{
     background-image: linear-gradient;
     background-color: rgb(203, 94, 112);
     padding: 10px 20px;
+    border-radius: 5px;
     color: white;
     font-weight: 900;
     }
 .bottom-banner{
     background-image: url("Images/image\ 1.png");
     background-repeat: no-repeat;
-    background-position: ;
+    background-position: left;
     }
 .portfolio{
     background-image: url("Images/half-round-gap.png");
@@ -43,13 +44,21 @@ section{
     background-position: left;
     }
 .solo{
-    box-shadow: 10px 10px;
+    box-shadow: 10px 10px 40px;
     border-radius: 5px;
     height: 70%;
     background-color: rgb(186, 186, 186);
     }
 #p-work{
-    border-left: 8px solid;
+    border-left: 6px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+    }
+#t-work{
+    border-left: 6px solid;
     border-image: linear-gradient(180deg, lightsalmon, tomato);
-    border-image-slice: 2;
-}
+    border-image-slice: 1;
+    }
+footer p{
+    text-align: center;
+    }    
